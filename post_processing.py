@@ -41,7 +41,6 @@ def post_process() -> None:
 
 
 def average(success_df: pd.DataFrame, output_file: str) -> None:
-    # Average performance
     """
     Save a heatmap and contour plot of average performance
 
